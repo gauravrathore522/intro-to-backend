@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "homepage": "https://github.com/gauravrathore522/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/gauravrathore522/intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravrathore522/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Gauarv",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0",
+    "nodemon": "^3.1.14"
+  }
+}
